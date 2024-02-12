@@ -22,30 +22,34 @@
     <!-- Spinner End -->
  <!-- header  -->
 
- <header>
-  <nav class="navbar" >
-    <div class="logo">
-      <span>🎯</span>
-      <a href="learn.html"> Q & A<span class="logo-a">nswers</span></a>
-    </div>
-    <div class="menu">
-      <div class="menu-links">
-        <a href="#">Html5</a>
-        <a href="#css3">Css3</a>
-        <a href="#js">JavaScript</a>
-        <a href="#reactJS">ReactJS</a>
-      </div>
-    </div>
-    <div>
-      <a class="log-in" href="tel:+919080651949"><i class="fa fa-phone"></i> Contact</a>
-    </div>
-    <div class="menu-btn">
-      <i class="fa fa-bars"></i>
-    </div>
-  </nav>
- </header>
-
- </body>
+  <div class="header" id="top">
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top">
+        <a class="navbar-brand pl-3 pl-xl-0" href="javascript:;">🎯 Q & A<span class="primary-theme-color">nswers</span></a>
+        <button class="navbar-toggler collapsed pr-3 pr-xl-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+            <span class="sr-only">Toggle navigation</span>
+        </button>
+        <div class="collapse navbar-collapse pl-3 pr-3 pl-xl-0 pr-xl-0 justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav pt-3 pb-3 pt-xl-0 pb-xl-0 pl-xl-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:;">Html<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown-hover right-dropdown">
+                    <a class="nav-link d-none d-xl-block" href="javaScript:;">Css</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="javascript:;">JavaScript</a>
+                </li>
+            </ul>
+        </div>
+        <form class="form-inline my-2 my-xl-0">
+          <a target="_blank" href="tel:+919080651949" class="btn btn-violet d-none d-xl-block mr-4"><span>Contact</span></a>
+          <a href="javascript:;" onclick="switchTheme()"><i id="i-tag-for-icons" class="fa fa-sun-o primary-theme-color" aria-hidden="true"></i></a>
+      </form>
+    </nav>
+  </div>
 
     <h1 class="title text-center mt-3">INTERVIEW <span id="element" class="text-dark"></span></h1>
 
