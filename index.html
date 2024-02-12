@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='UTF-8'>
+    <meta name="description" content="">
+    <meta name="author" content="Blue Moon">
+    <meta name="keywords" content="">
+    <title>Interview Questions</title>
+    <!-- My CSS Link-->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Spinner Start -->
+     <div id="spinner"
+     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+     <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+     </div>
+    <!-- Spinner End -->
+ <!-- header  -->
+
+ <header>
+  <nav class="navbar" >
+    <div class="logo">
+      <span>🎯</span>
+      <a href="learn.html"> Q & A<span class="logo-a">nswers</span></a>
+    </div>
+    <div class="menu">
+      <div class="menu-links">
+        <a href="#">Html5</a>
+        <a href="#css3">Css3</a>
+        <a href="#js">JavaScript</a>
+        <a href="#reactJS">ReactJS</a>
+      </div>
+    </div>
+    <div>
+      <a class="log-in" href="tel:+919080651949"><i class="fa fa-phone"></i> Contact</a>
+    </div>
+    <div class="menu-btn">
+      <i class="fa fa-bars"></i>
+    </div>
+  </nav>
+ </header>
+
+ </body>
+
+    <h1 class="title text-center mt-3">INTERVIEW <span id="element" class="text-dark"></span></h1>
+
+    <main class="container mt-3">
+      <p id="currentTime"></p>
+
+      <h4 class="title">1.What is Front End Development?</h4>
+      <p>Everything you see on a website, like buttons, links, animations, and more, were created by a front end web developer.</p>
+      <h2 class="title">HTML5 - Hyper Text Markup Language</h2>
+      <h4>1.What is HTML?</h4>
+      <p>HTML stands for HyperText Markup Language. It is the standard markup language used to create and design the structure of web pages.</p>
+      <h4>2.What is meta tag?</h4>
+      <p>The meta tag is used to provide metadata about the HTML document, such as character encoding, author, description, and keywords. It is typically placed in the head section of the page.</p>
+      <h4>3.What is semantic tag?</h4>
+      <p>Semantic elements are HTML tags that carry meaning about the structure of the page and its content. Examples include header, nav, main, section, article, footer, etc.</p>
+      <h4>4.What is a Html Web Worker?</h4>
+      <p>A web worker is a JavaScript running in the background, without affecting the performance of the page.</p>
+      <h4>5.What is the role of the iframe tag?</h4>
+      <p>The iframe tag is used to embed another document within the current HTML document. It is commonly used to embed videos, maps, or external web content.
+      </p>
+      <h4>6.What is HTML5, and what are its new features?</h4>
+      <p>HTML5 is the latest version of the HyperText Markup Language used for structuring and presenting content on the web. Its new features include support for audio and video elements, canvas for graphics, new form input types, local storage, geolocation, and semantic elements.</p>
+      <h4>7.What is the difference between HTML elements and HTML tags?</h4>
+      <p>HTML tags are used to define the beginning and end of HTML elements. An HTML element consists of a starting tag, content, and an ending tag (if applicable).</p>
+      <h4>8.Explain the difference between SVG and canvas for graphics in HTML5.</h4>
+        <p>SVG (Scalable Vector Graphics) is an XML-based format used to define graphics and is resolution-independent, while canvas allows dynamic rendering of graphics using JavaScript and is resolution-dependent.</p>
+        <h4 >9.What is the purpose of the viewport meta tag in HTML5?</h4>
+        <p>The viewport meta tag controls the layout and scaling of a web page on different devices, especially mobile devices, ensuring responsive design.</p>
+        <h4 >10.Explain the difference between Web Storage and Cookies in HTML5.</h4>
+        <p id="css3">Web Storage (localStorage and sessionStorage) provides a more efficient and secure way to store data on the user's browser than traditional cookies. Web Storage data is not sent with every HTTP request, reducing overhead.</p>
+      <hr>
+      <h2 class="title" >CSS3 - Cascading Style Sheets</h2>
+      <h4>1.What is CSS?</h4>
+      <p>CSS stands for Cascading Style Sheets. It is a style sheet language used to control the presentation and layout of HTML documents.</p>
+      <h4>2.How do you include CSS in an HTML document? Explain different methods.</h4>
+      <p>There are three main ways to include CSS in an HTML document:</p>
+      <ul>
+        <li><strong>Inline CSS :</strong> You can apply styles directly to an HTML element using the "style" attribute. </li>
+        <li><strong>Internal CSS :</strong> You can define CSS styles within the "style" element in the head section of the HTML document.</li>
+        <li><strong>External CSS :</strong> You can create a separate CSS file with all the styles and link it to your HTML document using the "link" element.</li>
+      </ul>
+      <h4>3.What are the different CSS selectors?</h4>
+      <p>CSS selectors are patterns used to select and style HTML elements.</p>
+      <ul>
+        <li>Type Selector(Element Selectors)</li>
+        <li>Class Selector</li>
+        <li>ID Selector</li>
+        <li>Descendant Selector</li>
+        <li>Attribute Selector</li>
+      </ul>
+      <h4>4.Explain the CSS Box Model and its components.</h4>
+      <p>The CSS Box Model is a fundamental concept that describes how the space around an HTML element is calculated. It consists of four components:</p>
+      <ol>
+        <li><strong>Content :</strong> The actual content area of the element, where text, images, or other media are displayed.</li>
+        <li><strong>Padding :</strong> The space between the content and the element's border.</li>
+        <li><strong>Border :</strong> A border surrounding the padding and content.</li>
+        <li><strong>Margin :</strong> The space between the element's border and other elements on the page.</li>
+      </ol>
+      <h4>5.Describe the difference between "display: block," "display: inline," and "display: inline-block."</h4>
+      <ul>
+        <li><strong>display: block :</strong> This property take up the full width available and start on a new line. They ignore the width and height properties of their content.</li>
+       <li> <strong>display: inline :</strong> This property only take up content width as necessary and do not start on a new line. They respect the width and height properties of their content.Inline elements flow within the content and can appear next to each other on the same line.</li>
+       <li> <strong>display: inline-block :</strong> This property are similar to inline elements but can have specified width and height properties. They do not start on a new line.elements that can flow inline but still have a specific size and spacing.</li>
+      </ul>
+      <!-- <h2 style="display:block;width:300px;height:200px; margin:30px; padding:10px;background-color:lightblue">i'm veeramani</h2><h2 style="display:inline-block;width:300px;height:200px; margin:30px; padding:10px;background-color:lightblue">i'm veeramani</h2> -->
+      <h4>6.What is the importance of the "z-index" property?</h4>
+      <p>The "z-index" property is used to control the stacking order of positioned elements on a webpage.It only works on positioned elements (position: absolute, 
+      position: relative, position: fixed).</p>
+      <h4>7.What is the purpose of media queries in CSS, and how are they used for responsive web design?</h4>
+      <p>They are essential for creating responsive web designs that adapt to different screen sizes, ensuring a better user experience on various devices like desktops, tablets, and smartphones.</p>
+      <h4>8.Explain the concept of CSS specificity and how it determines which styles are applied to an element.</h4>
+      <ul>
+        <li>Inline styles (style attribute): Highest specificity</li>
+        <li>ID selectors</li>
+        <li>Class selectors, attribute selectors, and pseudo-classes</li>
+        <li>Type selectors and pseudo-elements: Lowest specificity</li>
+      </ul>
+      <h4>9.Position property in CSS ? </h4>
+      <ul>
+        <li><strong>position: static :</strong> This is the default positioning value for all elements.</li>
+        <li><strong>position: relative :</strong> Positioned relative to its normal position, and other elements are not affected.</li>
+        <li><strong>position: absolute :</strong> Positioned relative to its nearest positioned ancestor or the document body. It is removed from the normal document flow.</li>
+        <li><strong>position: fixed :</strong> Positioned relative to the viewport. It is removed from the normal document flow and remains fixed even when scrolling.</li>
+        <li><strong>position: relative :</strong> The element is treated as position: relative until it reaches a specified offset position (e.g., top, bottom, left, or right). After that, it behaves like position: fixed; and remains fixed to the specified position.</li>
+      </ul>
+      <!-- <div class="bigBox">
+        <div class="box">
+          hello i'm box!
+        </div>
+      </div> -->
+      <h4 >10.Difference between flexbox and grid layout?</h4>
+      <p><strong>Flexbox :</strong> Flexbox is a one-dimensional layout model, which means it deals with arranging elements along a single axis (either horizontally or vertically). It is best suited for creating layouts in rows or columns. <br>
+        <strong id="js">Grid Layout :</strong> Grid layout is a two-dimensional layout model, allowing you to create complex layouts with both rows and columns. It divides the container into a grid of cells, making it suitable for creating multi-dimensional layouts.</p>
+      <hr>
+      <h2 class="title">JS - JavaScript</h2>
+      <h4>1.What is JavaScript?</h4>
+      <p>JavaScript is programming language that is used for converting
+      static web page to interactive and dynamic web pages.</p>
+      <h4>2.What is Variable?</h4>
+      <p>Variables are containers for storing values.The Variables declare in 3 ways 
+        <ul>
+          <li>var</li>
+          <li>let</li>
+          <li>const</li>
+        </ul> </p>
+      <h4>3.Differnce between var ,let & const?</h4>
+      <ul>
+        <li>Scope of variables</li>
+        <li>Redeclaration and reassignment</li>
+        <li>Hoisting</li>
+      </ul>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">KEYWORD</th>
+            <th scope="col">SCOPE</th>
+            <th scope="col">REDECLARATION & REASSIGNMENT</th>
+            <th scope="col">HOISTING</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">var</th>
+            <td>Global, Local</td>
+            <td>yes & yes</td>
+            <td>yes, with default value</td>
+          </tr>
+          <tr>
+            <th scope="row">let</th>
+            <td>Global, Local, Block</td>
+            <td>no & yes</td>
+            <td>yes, without default value</td>
+          </tr>
+          <tr>
+            <th scope="row">const</th>
+            <td>Global, Local, Block</td>
+            <td>no & no</td>
+            <td>yes, without default value</td>
+          </tr>
+        </tbody>
+      </table>
+      <h4>4.What is data type?</h4>
+      <p>A data types determines the type of values that can be stored in a variable.
+        There are two types,
+      <ul>
+        <li>Primitive Type</li>
+        <ol>
+          <li>String</li>
+          <li>Number</li>
+          <li>Boolean</li>
+          <li>Undefined</li>
+          <li>Null</li>
+        </ol>
+        <li>Non-primitive Type</li>
+        <ol>
+          <li>Object</li>
+          <li>Array</li>
+          <li>Function</li>
+          <li>Date</li>
+        </ol>
+      </ul>
+      </p>
+      <h4>5.Differnce between primitive & non-primitive</h4>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">PRIMITIVE</th>
+            <th scope="col">NON PRIMITIVE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Primitive data types are immutable.</td>
+            <td>They can hold only single value.</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>non primitive data types are mutable.</td>
+            <td>They can hold multiple value.</td>
+          </tr>
+        </tbody>
+      </table>
+          <h4>6.What is scope?</h4>
+          <p>Scope dertermines the visibility of variable.JavaScript has 3 types of scope,
+            <ul>
+              <li>Global Scope</li>
+              <li>Local Scope (or) Function Scope</li>
+              <li>Block Scope</li>
+            </ul>
+          </p>
+          <h4>7.What is global, local, block scopes?</h4>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">BLOCK SCOPE</th>
+                <th scope="col">LOCAL SCOPE</th>
+                <th scope="col">GLOBAL SCOPE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Variables declared inside a { } block cannot be accessed from outside the block.</td>
+                <td>Variables declared within a function, have Local scope. </td>
+                <td>A variable declared outside a function, have global scope.</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>let and const is a block scope</td>
+                <td>var, let and const is a local scope</td>
+                <td>var, let and const is a global scope</td>
+              </tr>
+              
+            </tbody>
+          </table>
+          <h4>8.What is object, arrays, function?</h4>
+          <dl>
+            <dt>Object :</dt>
+            <dd>- An object is a non primitive data type which can hold mulitiple value or combination of values and function.</dd>
+            <dt>Arrays :</dt>
+            <dd>- An arrays is used to store a collection of values, such as a list of numbers or a list of name and etc...</dd>
+            <dt>Functions :</dt>
+            <dd>- a function is a block of code that performs a specific task or return a value.</dd>
+          </dl>
+          <h4>9.What is function Hoisting?</h4>
+          <p>Variables and function declaration are moved to the top of their scope before code is execution. </p>
+          <h4>10.What is callback function?</h4>
+          <p>A callback function is function that is passed as an argument to another function and it is executed after some operation or event is executed.</p>
+          <h4>11.what is arrow function?</h4>
+          <p>It was introduced in ES6 and provides a shoter syntax than the traditional function expression.</p>
+          <h4>12.What is higher order function?</h4>
+          <p>A higher order function is a function that one or more function as arguments(callback) or return a function as a result.</p>
+          <h4>13.Difference between '==' & '==='?</h4>
+          <p>Both are comparison operators.
+             <ul>
+              <li>'==' is used to compare values.</li>
+              <li>'===' is used to compare values & types </li>
+             </ul>
+          </p>
+          <h4>14.What is promise?</h4>
+          <p>Javascript is a single thread,two bits of script cannot run at the same time; they have to run one after another.Promises are used to handle asynchronous operations.It represents a value that may be available in future, either as a successful result or a failure result.Promise can be in one of 3 states,
+            <ul>
+              <li>pending</li>
+              <li>resolved</li>
+              <li>rejected</li>
+            </ul>
+          </p>
+          <h4>15.what is async and await?</h4>
+          <p>The async and await keywords are used to handle asynchronous operations in a more synchronous and readable manner.
+            <ul>
+              <li>async and await make promises easier to write.</li>
+              <li>async makes a function return a promise.</li>
+              <li>await makes a function wait for a promise.</li>
+            </ul>
+          </p>
+          <h4>16.What is synchronous & asynchronous operations?</h4>
+          <dl>
+            <dt>Synchronous :</dt>
+            <dd>- Synchronous programming executes tasks in sequential order.</dd>
+            <dt>Asynchronous :</dt>
+            <dd>- Asynchronous programming executes task in concurrently.</dd>
+          </dl>
+          <h4>17.what is closure?</h4>
+          <p>A closure is a method that accesses a variable "outside" itself.</p>
+          <h4>18.what is IIFE?</h4>
+          <p>An IIFE (Immediately Invoked Function Expression) is a function that runs the moment it is invoked or called in the JavaScript event loop.</p>
+          <h4>19.What is Local Storage & Session Storage ?</h4>
+          <dl>
+            <dt>Local Storage :</dt>
+            <dd>- The localStorage object stores the data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year.</dd>
+            <dt>Session Storage :</dt>
+            <dd>- The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session. The data is deleted when the user closes the specific browser tab.</dd>
+          </dl>
+          <h4>20.What is Destructuring?</h4>
+          <p>Destructuring is extract specific values from arrays or objects and assign them to variables using a concise syntax. </p>  
+          <h4>21.Difference between map and foreach?</h4>
+          <dl>
+            <dt>map() :</dt>
+            <dd>- Create a new array with modified value based on the original arrays elements.</dd>
+            <dt>foreach() :</dt>
+            <dd>- Foreach method is use to access each item of the arrays.</dd>
+          </dl>
+          <h4>22.what is settimeout and setinterval and clearinterval?</h4>
+          <dl>
+            <dt>setTimeOut :</dt>
+            <dd>- Settimeout method is used to run a function after certain time period.</dd>
+            <dt>setInterval :</dt>
+            <dd>- Setinterval method is used to run a piece of code again and again after certain period of time.</dd>
+            <dt>clearInterval :</dt>
+            <dd>- Clearinterval is used to stop the setinterval.</dd>
+          </dl>
+          <h4>23.What is Events?</h4>
+          <p>Events are actions or occurrences that happen in a web browser, such as a click,key press, or form submission.<br>
+          Common types of events include click, keydown, load, submit, change, mouseover, scroll, and resize.
+          </p>
+          <h4>24.What is JSON?</h4>
+          <p>JSON stands for JavaScript object notation.It is a lightweeight, human-readable data interchange format commonly used for transmitting and storing data.</p>
+          <h4 id="reactJS">25.What is Dom?</h4>
+          <p >The DOM represents the web pages as a tree-like structure which allows javascript to dynamically access and manipulate the content and structure of a web page.</p>      
+          <h1 class="title">ReactJS</h1>  
+          <h4>1.What is React?</h4>
+          <p>React is an open source javascript library. It is used for buliding user interfaces(UI). React Simplifies the creaction of SPA by using reusable components.</p>
+          <h4>2.What is JSX?</h4>
+          <p>JSX stands for JavaScript XML. Write HTML-like code inside a JavaScript file. JSX converts HTML tags into react elements.(React.createElement())</p>
+          <h4>3.What is components in react?</h4>
+          <p>React components represents a part of user interface. React components are reusable across application and can be nested inside any conponents. <br>There are two type of components,
+          <ul>
+            <li>Stateless Function components</li>
+            <li>Stateful Class components</li>
+          </ul>
+          </p>
+          <h4>4.What is props in ReactJS?</h4>
+          <p>Props is short for properties and uesd to pass data from one components to another components. Props are read-only, which means that the child components cannot modify the props passed to them by the parent.</p>
+          <h4>5.Benefits of ReactJS?</h4>
+          <ul>
+            <li>reusable components</li>
+            <li>Virtual DOM</li>
+            <li>performance Optimization</li>
+            <li>Large Community</li>
+            <li>Easy to learn and use</li>
+          </ul>
+    </main>
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-floating btn-lg" id="btn-back-to-top"><i
+      class="fa fa-arrow-up"></i></a>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="script.js"></script>
+
+      <!-- Typed.js Link -->
+      <script src="js/typed.umd.js"></script>
+
+      <!-- Setup and start animation! -->
+      <script>
+        var typed = new Typed('#element', {
+          strings: ["Questions", "And", "Answers"],
+          typeSpeed: 80,
+          backSpeed: 80,
+          startDelay: 500,
+          backDelay: 700,
+          loop: true,
+        });
+      </script>
+
+  </body>
+</html>
