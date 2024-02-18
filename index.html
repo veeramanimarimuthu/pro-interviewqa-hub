@@ -18,35 +18,33 @@
      </div>
     <!-- Spinner End -->
 
-    <!-- header  -->
-    <div class="header" id="top">
-      <nav class="navbar navbar-expand-xl navbar-light fixed-top">
-          <a class="navbar-brand pl-3 pl-xl-0" href="javascript:;">🎯 Q & A<strong class="primary-theme-color">nswers</strong></a>
-          <button class="navbar-toggler collapsed pr-3 pr-xl-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="icon-bar top-bar"></span>
-              <span class="icon-bar middle-bar"></span>
-              <span class="icon-bar bottom-bar"></span>
-              <span class="sr-only">Toggle navigation</span>
-          </button>
-          <div class="collapse navbar-collapse pl-3 pr-3 pl-xl-0 pr-xl-0 justify-content-center" id="collapsibleNavbar">
-              <ul class="navbar-nav pt-3 pb-3 pt-xl-0 pb-xl-0 pl-xl-5">
-                  <li class="nav-item">
-                      <a class="nav-link" href="javascript:;">Html<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item dropdown-hover right-dropdown">
-                      <a class="nav-link d-none d-xl-block" href="javaScript:;">Css</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" target="_blank" href="javascript:;">JavaScript</a>
-                  </li>
-              </ul>
-          </div>
-          <form class="form-inline my-2 my-xl-0">
-            <a target="_blank" href="tel:+919080651949" class="btn btn-blue"><span>Contact</span></a>
-            <a href="javascript:;" onclick="switchTheme()"><i id="i-tag-for-icons" class="fa fa-sun-o primary-theme-color" aria-hidden="true"></i></a>
-        </form>
-      </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">🎯 Q & A<strong class="primary-theme-color">nswers</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#html">Html</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#css">Css</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#javascript" tabindex="-1" aria-disabled="true">JavaScript</a>
+            </li>
+            <li class="d-block d-lg-none">
+              <a href="tel:+919080651949" class="btn btn-blue">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-lg-block">
+          <a href="tel:+919080651949" class="btn btn-blue">Contact</a>
+        </div>
+      </div>
+    </nav>
 
     <section class="content-section">
           <div class="container mt-5 pt-5">
@@ -58,7 +56,7 @@
             </div>
             <div class="row">
               <div class="col-12">
-                <h4 class="title">1.What is Front End Development?</h4>
+                <h4 class="title" id="html">1.What is Front End Development?</h4>
                 <p>Everything you see on a website, like buttons, links, animations, and more, were created by a front end web developer.</p>
                 <h2 class="title">HTML5 - Hyper Text Markup Language</h2>
                 <h4>1.What is HTML?</h4>
@@ -81,7 +79,7 @@
                   <h4 >9.What is the purpose of the viewport meta tag in HTML5?</h4>
                   <p>The viewport meta tag controls the layout and scaling of a web page on different devices, especially mobile devices, ensuring responsive design.</p>
                   <h4 >10.Explain the difference between Web Storage and Cookies in HTML5.</h4>
-                  <p id="css3">Web Storage (localStorage and sessionStorage) provides a more efficient and secure way to store data on the user's browser than traditional cookies. Web Storage data is not sent with every HTTP request, reducing overhead.</p>
+                  <p id="css">Web Storage (localStorage and sessionStorage) provides a more efficient and secure way to store data on the user's browser than traditional cookies. Web Storage data is not sent with every HTTP request, reducing overhead.</p>
                 <hr>
                 <h2 class="title" >CSS3 - Cascading Style Sheets</h2>
                 <h4>1.What is CSS?</h4>
@@ -144,7 +142,7 @@
                 </div> -->
                 <h4 >10.Difference between flexbox and grid layout?</h4>
                 <p><strong>Flexbox :</strong> Flexbox is a one-dimensional layout model, which means it deals with arranging elements along a single axis (either horizontally or vertically). It is best suited for creating layouts in rows or columns. <br>
-                  <strong id="js">Grid Layout :</strong> Grid layout is a two-dimensional layout model, allowing you to create complex layouts with both rows and columns. It divides the container into a grid of cells, making it suitable for creating multi-dimensional layouts.</p>
+                  <strong id="javascript">Grid Layout :</strong> Grid layout is a two-dimensional layout model, allowing you to create complex layouts with both rows and columns. It divides the container into a grid of cells, making it suitable for creating multi-dimensional layouts.</p>
                 <hr>
                 <h2 class="title">JS - JavaScript</h2>
                 <h4>1.What is JavaScript?</h4>
@@ -352,10 +350,10 @@
                     </p>
                     <h4>24.What is JSON?</h4>
                     <p>JSON stands for JavaScript object notation.It is a lightweeight, human-readable data interchange format commonly used for transmitting and storing data.</p>
-                    <h4 id="reactJS">25.What is Dom?</h4>
+                    <h4>25.What is Dom?</h4>
                     <p >The DOM represents the web pages as a tree-like structure which allows javascript to dynamically access and manipulate the content and structure of a web page.</p>      
-                    <h1 class="title">ReactJS</h1>  
-                    <h4>1.What is React?</h4>
+                    <!-- <h1 class="title">ReactJS</h1>   -->
+                    <!-- <h4>1.What is React?</h4>
                     <p>React is an open source javascript library. It is used for buliding user interfaces(UI). React Simplifies the creaction of SPA by using reusable components.</p>
                     <h4>2.What is JSX?</h4>
                     <p>JSX stands for JavaScript XML. Write HTML-like code inside a JavaScript file. JSX converts HTML tags into react elements.(React.createElement())</p>
@@ -375,7 +373,7 @@
                       <li>performance Optimization</li>
                       <li>Large Community</li>
                       <li>Easy to learn and use</li>
-                    </ul>
+                    </ul> -->
               </div>
             </div>
           </div>
